@@ -6,6 +6,6 @@
 // document.querySelector('.guess').value = 23;
 
 document.querySelector('.check').addEventListener('click', function () {
-  const guess = document.querySelector('.guess').value;
+  const guess = Numer(document.querySelector('.guess').value);
 
 });
