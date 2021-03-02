@@ -5,7 +5,7 @@
 // document.querySelector('.score').textContent = 10;
 // document.querySelector('.guess').value = 23;
 
-const secretNumber = Math.trunc(Math.random() * 20) + 1;
+let secretNumber = Math.trunc(Math.random() * 20) + 1;
 let score = 20;
 
 document.querySelector('.check').addEventListener('click', function () {
