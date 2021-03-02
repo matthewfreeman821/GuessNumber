@@ -49,4 +49,11 @@ document.querySelector('.check').addEventListener('click', function () {
 
 document.querySelector('.again').addEventListener('click', function () {
   console.log('Clicked again');
+  score = 20;
+  document.querySelector('.score').textContent = score;
+  document.querySelector('.message').textContent = 'Start guessing...';
+  document.querySelector('body').style.backgroundColor = '#222';
+  document.querySelector('.guess').value = '';
+  document.querySelector('.number').style.width = '25rem';
+  document.querySelector('.number').textContent = '?';
 });
