@@ -25,6 +25,7 @@ document.querySelector('.check').addEventListener('click', function () {
 
     if (score > highscore) {
       highscore = score;
+      documen.querySelector('.highscore').textContent = highscore;
     }
   }
   // Guess is higher than number
