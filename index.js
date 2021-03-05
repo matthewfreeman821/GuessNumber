@@ -25,9 +25,6 @@ document.querySelector('.check').addEventListener('click', function () {
   }
   // Guess is wrong
   else if (guess != secretNumber) {
-  }
-  // Guess is higher than number
-  else if (guess > secretNumber) {
     if (score > 1) {
       document.querySelector('.message').textContent = '📈 Too high!';
       score--;
@@ -36,6 +33,9 @@ document.querySelector('.check').addEventListener('click', function () {
       document.querySelector('.message').textContent = '💥 You lost the game!'
       document.querySelector('.score').textContent = 0;
     }
+  }
+  // Guess is higher than number
+  else if (guess > secretNumber) {
   }
   // Guess is lower than number
   else if (guess < secretNumber) {
