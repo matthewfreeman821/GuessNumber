@@ -23,6 +23,9 @@ document.querySelector('.check').addEventListener('click', function () {
       document.querySelector('.highscore').textContent = highscore;
     }
   }
+  // Guess is wrong
+  else if (guess != secretNumber) {
+  }
   // Guess is higher than number
   else if (guess > secretNumber) {
     if (score > 1) {
