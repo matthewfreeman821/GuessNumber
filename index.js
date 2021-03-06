@@ -47,3 +47,7 @@ document.querySelector('.again').addEventListener('click', function () {
   document.querySelector('.number').textContent = '?';
   secretNumber = Math.trunc(Math.random() * 20) + 1;
 });
+
+let getSecretNumber = function () {
+  return Math.trunc(Math.random() * 20) + 1;
+}
