@@ -1,5 +1,9 @@
 'use strict';
 
+let getSecretNumber = function () {
+  return Math.trunc(Math.random() * 20) + 1;
+}
+
 let secretNumber = getSecretNumber();
 let score = 20;
 let highscore = 0;
@@ -47,7 +51,3 @@ document.querySelector('.again').addEventListener('click', function () {
   document.querySelector('.number').textContent = '?';
   secretNumber = getSecretNumber();
 });
-
-let getSecretNumber = function () {
-  return Math.trunc(Math.random() * 20) + 1;
-}
