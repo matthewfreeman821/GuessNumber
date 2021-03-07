@@ -8,6 +8,7 @@ let secretNumber = getSecretNumber();
 let score = 20;
 let highscore = 0;
 let message = document.querySelector('.message');
+let scoreDisplay = document.querySelector('.score');
 
 document.querySelector('.check').addEventListener('click', function () {
   const guess = Number(document.querySelector('.guess').value);
@@ -36,7 +37,7 @@ document.querySelector('.check').addEventListener('click', function () {
       document.querySelector('.score').textContent = score;
     } else {
       message.textContent = '💥 You lost the game!'
-      document.querySelector('.score').textContent = 0;
+      scoreDisplay.textContent = 0;
     }
   }
 });
@@ -44,7 +45,7 @@ document.querySelector('.check').addEventListener('click', function () {
 document.querySelector('.again').addEventListener('click', function () {
   console.log('Clicked again');
   score = 20;
-  document.querySelector('.score').textContent = score;
+  scoreDisplay.textContent = score;
   message.textContent = 'Start guessing...';
   document.querySelector('body').style.backgroundColor = '#222';
   document.querySelector('.guess').value = '';
