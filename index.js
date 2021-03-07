@@ -7,6 +7,7 @@ let getSecretNumber = function () {
 let secretNumber = getSecretNumber();
 let score = 20;
 let highscore = 0;
+let message = document.querySelector('.message');
 
 document.querySelector('.check').addEventListener('click', function () {
   const guess = Number(document.querySelector('.guess').value);
