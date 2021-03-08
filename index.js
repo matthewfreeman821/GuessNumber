@@ -22,8 +22,8 @@ document.querySelector('.check').addEventListener('click', function () {
   else if (guess === secretNumber) {
     message.textContent = '🎉 Correct Number!';
     document.querySelector('body').style.backgroundColor = '#60b347';
-    document.querySelector('.number').textContent = secretNumber;
-    document.querySelector('.number').style.width = '30rem';
+    numberDisplay.textContent = secretNumber;
+    numberDisplay.style.width = '30rem';
 
     if (score > highscore) {
       highscore = score;
