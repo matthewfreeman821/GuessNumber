@@ -50,7 +50,7 @@ document.querySelector('.again').addEventListener('click', function () {
   message.textContent = 'Start guessing...';
   document.querySelector('body').style.backgroundColor = '#222';
   document.querySelector('.guess').value = '';
-  document.querySelector('.number').style.width = '15rem';
-  document.querySelector('.number').textContent = '?';
+  numberDisplay.style.width = '15rem';
+  numberDisplay.textContent = '?';
   secretNumber = getSecretNumber();
 });
