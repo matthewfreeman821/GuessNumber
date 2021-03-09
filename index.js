@@ -1,9 +1,11 @@
 'use strict';
 
+//Function to get the secret number for guessing
 let getSecretNumber = function () {
   return Math.trunc(Math.random() * 20) + 1;
 }
 
+//Variables used for DOM manipulation
 let secretNumber = getSecretNumber();
 let score = 20;
 let highscore = 0;
@@ -11,6 +13,8 @@ let message = document.querySelector('.message');
 let scoreDisplay = document.querySelector('.score');
 let numberDisplay = document.querySelector('.number');
 
+
+//Event listener used to check if the guess is the same as the secret number
 document.querySelector('.check').addEventListener('click', function () {
   const guess = Number(document.querySelector('.guess').value);
 
@@ -43,6 +47,7 @@ document.querySelector('.check').addEventListener('click', function () {
   }
 });
 
+//Event listener for if the player wants to play again
 document.querySelector('.again').addEventListener('click', function () {
   console.log('Clicked again');
   score = 20;
