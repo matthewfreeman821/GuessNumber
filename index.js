@@ -26,7 +26,7 @@ document.querySelector('.check').addEventListener('click', function () {
   // Guess is correct
   else if (guess === secretNumber) {
     message.textContent = '🎉 Correct Number!';
-    document.querySelector('body').style.backgroundColor = '#60b347';
+    backgroundChange.style.backgroundColor = '#60b347';
     numberDisplay.textContent = secretNumber;
     numberDisplay.style.width = '30rem';
 
@@ -54,7 +54,7 @@ document.querySelector('.again').addEventListener('click', function () {
   score = 20;
   scoreDisplay.textContent = score;
   message.textContent = 'Start guessing...';
-  document.querySelector('body').style.backgroundColor = '#222';
+  backgroundChange.style.backgroundColor = '#222';
   document.querySelector('.guess').value = '';
   numberDisplay.style.width = '15rem';
   numberDisplay.textContent = '?';
