@@ -12,6 +12,7 @@ let highscore = 0;
 let message = document.querySelector('.message');
 let scoreDisplay = document.querySelector('.score');
 let numberDisplay = document.querySelector('.number');
+let backgroundChange = document.querySelector('body');
 
 
 //Event listener used to check if the guess is the same as the secret number
