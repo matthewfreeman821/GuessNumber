@@ -5,6 +5,19 @@ let getSecretNumber = function () {
   return Math.trunc(Math.random() * 20) + 1;
 }
 
+//Function to reset game
+const resetGame = function () {
+  console.log('Clicked again');
+  score = 20;
+  scoreDisplay.textContent = score;
+  message.textContent = 'Start guessing...';
+  backgroundChange.style.backgroundColor = '#222';
+  document.querySelector('.guess').value = '';
+  numberDisplay.style.width = '15rem';
+  numberDisplay.textContent = '?';
+  secretNumber = getSecretNumber();
+}
+
 //Variables used for DOM manipulation
 let secretNumber = getSecretNumber();
 let score = 20;
@@ -50,16 +63,3 @@ document.querySelector('.check').addEventListener('click', function () {
 
 //Event listener for if the player wants to play again
 document.querySelector('.again').addEventListener('click', resetGame);
-
-//Function to reset game
-const resetGame = function () {
-  console.log('Clicked again');
-  score = 20;
-  scoreDisplay.textContent = score;
-  message.textContent = 'Start guessing...';
-  backgroundChange.style.backgroundColor = '#222';
-  document.querySelector('.guess').value = '';
-  numberDisplay.style.width = '15rem';
-  numberDisplay.textContent = '?';
-  secretNumber = getSecretNumber();
-}
