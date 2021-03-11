@@ -1,7 +1,7 @@
 'use strict';
 
 //Function to get the secret number for guessing
-let getSecretNumber = function () {
+const getSecretNumber = function () {
   return Math.trunc(Math.random() * 20) + 1;
 }
 
