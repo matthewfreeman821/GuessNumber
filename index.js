@@ -49,7 +49,10 @@ document.querySelector('.check').addEventListener('click', function () {
 });
 
 //Event listener for if the player wants to play again
-document.querySelector('.again').addEventListener('click', function () {
+document.querySelector('.again').addEventListener('click', resetGame);
+
+//Function to reset game
+const resetGame = function () {
   console.log('Clicked again');
   score = 20;
   scoreDisplay.textContent = score;
@@ -59,4 +62,4 @@ document.querySelector('.again').addEventListener('click', function () {
   numberDisplay.style.width = '15rem';
   numberDisplay.textContent = '?';
   secretNumber = getSecretNumber();
-});
+}
