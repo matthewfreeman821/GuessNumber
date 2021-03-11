@@ -7,7 +7,6 @@ let getSecretNumber = function () {
 
 //Function to reset game
 const resetGame = function () {
-  console.log('Clicked again');
   score = 20;
   scoreDisplay.textContent = score;
   message.textContent = 'Start guessing...';
