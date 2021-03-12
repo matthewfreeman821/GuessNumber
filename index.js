@@ -29,6 +29,7 @@ let backgroundChange = document.querySelector('body');
 
 //Event listener used to check if the guess is the same as the secret number
 document.querySelector('.check').addEventListener('click', function () {
+  //Need to restructure this code to create function for init
   const guess = Number(document.querySelector('.guess').value);
 
   // No input
