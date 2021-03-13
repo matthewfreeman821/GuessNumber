@@ -1,5 +1,7 @@
 'use strict';
 
+//Create theme change option through button select
+
 //Function to get the secret number for guessing
 const getSecretNumber = function () {
   return Math.trunc(Math.random() * 20) + 1;
