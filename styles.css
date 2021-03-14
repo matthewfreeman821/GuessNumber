@@ -81,6 +81,11 @@ h1 {
   top: 2rem;
   left: 2rem;
 }
+.theme {
+  position: absolute;
+  top: 4rem;
+  left: 4rem;
+}
 
 .guess {
   background: none;
