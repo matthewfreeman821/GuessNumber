@@ -81,10 +81,12 @@ h1 {
   top: 2rem;
   left: 2rem;
 }
+
+
 .theme {
   position: absolute;
-  top: 25rem;
-  left: 2rem;
+  top: 30rem;
+  left: 15rem;
 }
 
 .guess {
