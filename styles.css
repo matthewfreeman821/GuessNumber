@@ -82,7 +82,7 @@ h1 {
   left: 2rem;
 }
 
-
+/* Needs to not be position absolute and put near check button */
 .theme {
   position: absolute;
   top: 30rem;
