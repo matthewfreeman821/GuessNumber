@@ -83,8 +83,8 @@ h1 {
 }
 .theme {
   position: absolute;
-  top: 2rem;
-  left: 25rem;
+  top: 25rem;
+  left: 2rem;
 }
 
 .guess {
