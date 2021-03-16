@@ -30,7 +30,7 @@ let backgroundChange = document.querySelector('body');
 
 
 document.querySelector('.theme').addEventListener('click', function () {
-  console.log('Theme button clicked');
+  backgroundChange.style.backgroundColor = '#b22222';
 });
 
 //Event listener used to check if the guess is the same as the secret number
