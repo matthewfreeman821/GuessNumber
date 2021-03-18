@@ -30,7 +30,6 @@ let backgroundChange = document.querySelector('body');
 
 
 document.querySelector('.theme').addEventListener('click', function () {
-  //Need to change score emoji on click as well, blends out
   backgroundChange.style.backgroundColor = '#b22222';
   document.querySelector('.label-score').textContent = 'Score: '
 });
