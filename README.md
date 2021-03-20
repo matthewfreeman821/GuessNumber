@@ -29,14 +29,13 @@ This was a project during an online course by Jonas Schmedtmann. The concept was
 
 ### 2. Initial Planning
 
+The planning for this project was accomplished by designing the layout of the game and then working on functionality.
 
+### 3. Obstacles
 
-### 3. Obstacles and Breakthroughs
-
-
-
-
+As always creating more features on a tutorial is difficult. I decided to start with a basic change of theme by adding a button which can change the background color of the game. 
 
 ### 4. Future Additions
 
 * More themes
+* Two player mode
