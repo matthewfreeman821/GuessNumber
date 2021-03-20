@@ -23,14 +23,11 @@ Small Front-End Project
 
 ### 1. Concept
 
-
-
+This was a project during an online course by Jonas Schmedtmann. The concept was to build a game where the player guesses a number to match a secret random number between 1 and 20. This was accomplished using only vanilla JavaScript.
 
 
 
 ### 2. Initial Planning
-
-
 
 
 
