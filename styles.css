@@ -125,3 +125,7 @@ h1 {
 .label-score {
   margin-bottom: 2rem;
 }
+
+.theme-red {
+  background-color: #b22222
+}
