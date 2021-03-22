@@ -31,7 +31,7 @@ let backgroundChange = document.querySelector('body');
 
 document.querySelector('.theme').addEventListener('click', function () {
   //Needs to be changed to toggle
-  backgroundChange.classList.toggle = '';
+  backgroundChange.classList.toggle = 'theme-red';
   document.querySelector('.label-score').textContent = 'Score: '
 });
 
