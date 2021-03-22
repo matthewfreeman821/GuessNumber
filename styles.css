@@ -15,7 +15,7 @@ html {
 body {
   font-family: 'Press Start 2P', sans-serif;
   color: #eee;
-  background-color: #222;
+  /* background-color: #222; */
 }
 
 /* layout */
@@ -128,4 +128,8 @@ h1 {
 
 .theme-red {
   background-color: #b22222
+}
+
+.theme-dark {
+  background-color: #222;
 }
