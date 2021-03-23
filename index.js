@@ -31,7 +31,14 @@ let backgroundChange = document.querySelector('body');
 
 document.querySelector('.theme').addEventListener('click', function () {
   //Needs to be changed to toggle
-  console.log(backgroundChange.style);
+  let color = backgroundChange.style.backgroundColor;
+  if (color !== '#b22222') {
+    color = '#b22222';
+    document.querySelector('body').style.backgroundColor = color;
+  } else if (color === 'rgb(178, 34, 34)') {
+    color = '#222';
+    document.querySelector('body').style.backgroundColor = color;
+  }
   document.querySelector('.label-score').textContent = 'Score: '
 });
 
