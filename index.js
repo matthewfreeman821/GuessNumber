@@ -31,6 +31,7 @@ let backgroundChange = document.querySelector('body');
 
 document.querySelector('.theme').addEventListener('click', function () {
   //Needs to be changed to toggle
+  //Color needs to be evaluated at rgb level. first if is always true currently, so  no color switch
   let color = backgroundChange.style.backgroundColor;
   if (color !== '#b22222') {
     color = '#b22222';
