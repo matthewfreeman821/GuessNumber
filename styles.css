@@ -85,9 +85,9 @@ h1 {
 /* Needs to not be position absolute and put near check button */
 /* Need a new class to toggle in js file */
 .theme {
-  position: absolute;
+  /* position: absolute;
   top: 30rem;
-  left: 15rem;
+  left: 15rem; */
 }
 
 .guess {
