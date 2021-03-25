@@ -86,9 +86,6 @@ h1 {
 /* Need a new class to toggle in js file */
 .theme {
   margin-top: 3rem;
-  /* position: absolute;
-  top: 30rem;
-  left: 15rem; */
 }
 
 .guess {
