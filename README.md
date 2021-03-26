@@ -23,7 +23,7 @@ Small Front-End Project
 
 ### 1. Concept
 
-This was a project during an online course by Jonas Schmedtmann. The concept was to build a game where the player guesses a number to match a secret random number between 1 and 20. This was accomplished using only vanilla JavaScript.
+This was a project during an online course by Jonas Schmedtmann. The concept was to build a game where the player guesses a number to match a secret random number between 1 and 20. This was accomplished using no frameworks and working with only JavaScrpt, HTML, and CSS.
 
 
 
@@ -33,9 +33,10 @@ The planning for this project was accomplished by designing the layout of the ga
 
 ### 3. Obstacles
 
-As always creating more features on a tutorial is difficult. I decided to start with a basic change of theme by adding a button which can change the background color of the game. 
+As always creating more features on a tutorial is difficult. I decided to start with a basic change of theme by adding a button which can change the background color of the game between black and red. 
 
 ### 4. Future Additions
 
 * More themes
 * Two player mode
+* Difficulty levels
