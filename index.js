@@ -29,16 +29,17 @@ let numberDisplay = document.querySelector('.number');
 let backgroundChange = document.querySelector('body');
 let backgroundColorRed = '#b22222';
 let backgroundColorBlack = '#222';
+let red = 'rgb(178, 34, 34)';
 
 
 document.querySelector('.theme').addEventListener('click', function () {
   //Needs to be changed to toggle
   let color = backgroundChange.style.backgroundColor;
-  if (color !== 'rgb(178, 34, 34)') {
+  if (color !== red) {
     color = backgroundColorRed;
     document.querySelector('.label-score').textContent = 'Score: '
     document.querySelector('body').style.backgroundColor = color;
-  } else if (color === 'rgb(178, 34, 34)') {
+  } else if (color === red) {
     color = backgroundColorBlack;
     document.querySelector('body').style.backgroundColor = color;
     document.querySelector('.label-score').textContent = '💯 Score: '
