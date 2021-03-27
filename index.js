@@ -27,13 +27,14 @@ let message = document.querySelector('.message');
 let scoreDisplay = document.querySelector('.score');
 let numberDisplay = document.querySelector('.number');
 let backgroundChange = document.querySelector('body');
+let backgroundColorRed = '#b22222';
 
 
 document.querySelector('.theme').addEventListener('click', function () {
   //Needs to be changed to toggle
   let color = backgroundChange.style.backgroundColor;
   if (color !== 'rgb(178, 34, 34)') {
-    color = '#b22222';
+    color = backgroundColorRed;
     document.querySelector('.label-score').textContent = 'Score: '
     document.querySelector('body').style.backgroundColor = color;
   } else if (color === 'rgb(178, 34, 34)') {
